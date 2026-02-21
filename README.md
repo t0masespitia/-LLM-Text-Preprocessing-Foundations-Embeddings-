@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto reproduce e implementa los componentes principales del Capítulo 2 del libro *Build a Large Language Model (From Scratch)* de Sebastian Raschka. El objetivo es comprender cómo se construye el pipeline de preparación de datos necesario para entrenar un modelo de lenguaje (LLM).  
+El objetivo es comprender cómo se construye el pipeline de preparación de datos necesario para entrenar un modelo de lenguaje (LLM).  
 
 En el notebook embeddings.ipynb se desarrolla paso a paso el proceso completo que permite transformar texto crudo en representaciones numéricas que pueden ser procesadas por una red neuronal. Esto incluye la tokenización, la construcción del vocabulario, el manejo de tokens desconocidos, la generación de datasets usando ventanas deslizantes (max_length y stride), y la implementación de embeddings de tokens y embeddings posicionales utilizando PyTorch.  
 
